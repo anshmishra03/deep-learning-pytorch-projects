@@ -1,0 +1,7 @@
+PetImages/
+data/
+*.pt
+*.pth
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
