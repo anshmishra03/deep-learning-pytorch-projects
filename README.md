@@ -34,5 +34,17 @@ on the CIFAR-10 dataset.
 |---|---|
 | Test Accuracy | 76.16% |
 
+## 3. IMDB Sentiment Analysis (RNN)
+Folder: `rnn/`
+
+Classifies IMDB movie reviews as positive or negative using an RNN in PyTorch.
+
+- Text preprocessing: lowercasing, removal of URLs, HTML, punctuation and stopwords, stemming
+- TF-IDF vectorization (5,000 features), tensor datasets and DataLoaders
+- RNN (hidden size 128) trained with BCE loss and Adam for 10 epochs
+
+| Metric | Score |
+|---|---|
+| Test Accuracy | 82.44% |
 ## Tech Stack
-Python, PyTorch, torchvision, scikit-learn, Matplotlib, Jupyter
+Python, PyTorch, torchvision, scikit-learn, Matplotlib, Jupyter, NLTK
